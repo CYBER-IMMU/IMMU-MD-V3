@@ -1,0 +1,26 @@
+{
+  "name": "immu-md-v3",
+  "version": "3.0.0",
+  "description": "IMMU MD V3 — Royal Edition",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "IMMU MD V3",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.18",
+    "axios": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "moment-timezone": "^0.5.45",
+    "node-cache": "^5.1.2",
+    "pino": "^7.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

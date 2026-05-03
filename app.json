@@ -1,0 +1,23 @@
+{
+  "name": "IMMU MD V3",
+  "description": "WhatsApp Multi-Device Bot — Royal Edition",
+  "logo": "https://i.ibb.co/p6frQZNZ/Picsart-26-04-27-12-36-40-582.jpg",
+  "keywords": ["whatsapp", "bot", "baileys", "immu-md"],
+  "env": {
+    "SESSION_ID": {
+      "description": "Session ID (starts with IMMU-MD~). Get it by linking on first run.",
+      "required": true
+    },
+    "PREFIX": { "value": ".", "description": "Command prefix" },
+    "MODE": { "value": "public", "description": "public or private" },
+    "TIME_ZONE": { "value": "Asia/Karachi" },
+    "AUTO_READ_STATUS": { "value": "true" },
+    "AUTO_LIKE_STATUS": { "value": "true" },
+    "ANTIDELETE": { "value": "true" },
+    "ANTIVIEWONCE": { "value": "true" }
+  },
+  "buildpacks": [{ "url": "heroku/nodejs" }],
+  "formation": {
+    "web": { "quantity": 1, "size": "basic" }
+  }
+}
